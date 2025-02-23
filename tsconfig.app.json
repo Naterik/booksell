@@ -5,6 +5,17 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "assets/*":["./src/assets/*"],
+      "styles/*":["./src/styles/*"],
+      "pages/*":["./src/pages/*"],
+      "components/*":["./src/components/*"],
+      "app/*": ["./src/app/*"],
+      "config/*": ["./src/app/_config/*"],
+      "services/*":["./src/services/*"],
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
